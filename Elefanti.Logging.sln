@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elefanti.Logging", "src\Elefanti.Logging\Elefanti.Logging.csproj", "{1D3BFAD3-6A28-468C-800C-1DF870F1768F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elefanti.Logging.Discord", "src\Elefanti.Logging.Discord\Elefanti.Logging.Discord.csproj", "{D67122FC-19A6-4E76-97A2-77C556BE220C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		ROADMAP.md = ROADMAP.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D3BFAD3-6A28-468C-800C-1DF870F1768F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D3BFAD3-6A28-468C-800C-1DF870F1768F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D3BFAD3-6A28-468C-800C-1DF870F1768F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D3BFAD3-6A28-468C-800C-1DF870F1768F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D67122FC-19A6-4E76-97A2-77C556BE220C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D67122FC-19A6-4E76-97A2-77C556BE220C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D67122FC-19A6-4E76-97A2-77C556BE220C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D67122FC-19A6-4E76-97A2-77C556BE220C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA177830-35B4-4566-9189-AB757131DFD6}
+	EndGlobalSection
+EndGlobal
