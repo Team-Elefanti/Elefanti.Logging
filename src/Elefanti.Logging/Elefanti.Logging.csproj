@@ -17,7 +17,6 @@
     <RepositoryUrl>https://github.com/Team-Elefanti/Elefanti.Logging</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>logging;elefanti;dotnet</PackageTags>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 
