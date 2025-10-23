@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "ConsoleLoggingSample": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DISCORD_WEBHOOK_URL": "https://discord.com/api/webhooks/1430204502996422718/xNuy_Qa1X2eZGeYinduISKGMODaL4t0WVLYvrcpfONhqeXZBTVBn3Tj2c-kgJPoZggPz",
+        "DISCORD_WEBHOOK_CRITICAL": "https://discord.com/api/webhooks/1430385092408250399/j7XJ3ZpkENX4oJtC4ygsocv8T2k8Njh6_hLU7JzGL_Dl6-_gcmNbq_0Q_7xGHX0tyhX9"
+      }
+    }
+  }
+}

@@ -99,22 +99,22 @@ builder.Services.AddLogging(logging =>
 ---
 
 ### 1.4 Utilitários Compartilhados
-**Prioridade:** Média | **Status:** 📝 Planejado
+**Prioridade:** Média | **Status:** ✅ Concluído
 
 **Componentes:**
-- [ ] `LogLevelHelper` - Conversões e mapeamentos de LogLevel
-- [ ] `ExceptionFormatter` - Formatação de exceptions e stack traces
-- [ ] `ScopeFormatter` - Formatação de scopes
-- [ ] `TimestampProvider` - Provider de timestamps (UTC)
+- [x] `LogLevelHelper` - Conversões e mapeamentos de LogLevel
+- [x] `ExceptionFormatter` - Formatação de exceptions e stack traces
+- [x] `ScopeFormatter` - Formatação de scopes
+- [x] `TimestampProvider` - Provider de timestamps (UTC)
 
 **Entregáveis:**
 ```
 src/Elefanti.Logging/
 └── Utilities/
-    ├── LogLevelHelper.cs
-    ├── ExceptionFormatter.cs
-    ├── ScopeFormatter.cs
-    └── TimestampProvider.cs
+    ├── LogLevelHelper.cs ✅
+    ├── ExceptionFormatter.cs ✅
+    ├── ScopeFormatter.cs ✅
+    └── TimestampProvider.cs ✅
 ```
 
 ---
@@ -293,21 +293,21 @@ logging.AddDiscord(discord =>
 ---
 
 ### 2.6 Roteamento por Atributo
-**Prioridade:** Baixa | **Status:** 📝 Planejado
+**Prioridade:** Baixa | **Status:** ✅ Concluído
 
 **Componentes:**
-- [ ] `[DiscordWebhook]` attribute
-- [ ] Reflection-based routing
-- [ ] Cache de atributos
-- [ ] Suporte a herança de atributos
+- [x] `[DiscordWebhook]` attribute
+- [x] Reflection-based routing
+- [x] Cache de atributos
+- [x] Suporte a herança de atributos
 
 **Entregáveis:**
 ```
 src/Elefanti.Logging.Discord/
 ├── Attributes/
-│   └── DiscordWebhookAttribute.cs
+│   └── DiscordWebhookAttribute.cs ✅
 └── Routing/
-    └── AttributeBasedRouter.cs
+    └── AttributeBasedRouter.cs ✅
 ```
 
 **Exemplo de Uso:**
@@ -323,6 +323,15 @@ public class PaymentService
         // Logs vão para o webhook de payments
     }
 }
+```
+
+**Configuração:**
+```csharp
+logging.AddDiscord(options =>
+{
+    options.UseAttributeRouting("https://discord.com/.../default");
+    // Habilita roteamento por atributos com fallback
+});
 ```
 
 ---
